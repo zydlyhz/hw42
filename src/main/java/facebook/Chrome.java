@@ -32,7 +32,7 @@ public class Chrome {
 		Thread.sleep(1000);
 		
 		driver.findElement(By.id("email")).sendKeys("jtursunbaeva@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("attracti10");
+		driver.findElement(By.id("pass")).sendKeys("password");
 		driver.findElement(By.id("u_0_2")).click();
 		
 		Thread.sleep(6000);
